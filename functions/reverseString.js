@@ -1,3 +1,5 @@
-export default reverseString = (string) => {
+const reverseString = (string) => {
   return string.split('').reverse().join('');
 }
+
+export default reverseString;

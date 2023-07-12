@@ -1,4 +1,4 @@
-import capitalize from '../functions/capitalize.js';
+import capitalize from '../functions/capitalize';
 
 test('returns word with the first character capitalized', () => {
   expect(capitalize('java')).toBe('Java');
